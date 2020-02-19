@@ -16,18 +16,16 @@ class MuseumTest < Minitest::Test
 
   def test_it_has_attributes
     assert_equal "Denver Museum of Nature and Science", @dmns.name
+    assert_equal [], @dmns.exhibits
   end
+
+
 end
 
 
 
 
-# pry(main)> dmns = Museum.new("Denver Museum of Nature and Science")
-# # => #<Museum:0x00007fb400a6b0b0...>
-#
-# pry(main)> dmns.name
-# # => "Denver Museum of Nature and Science"
-#
+
 # pry(main)> dmns.exhibits
 # # => []
 #
