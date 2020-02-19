@@ -29,7 +29,6 @@ class MuseumTest < Minitest::Test
   end
 
   def test_it_can_add_exhibits
-
     assert_equal [@gems_and_minerals, @dead_sea_scrolls, @imax], @dmns.exhibits
   end
 
