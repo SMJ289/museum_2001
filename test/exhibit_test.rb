@@ -1,6 +1,6 @@
 require 'minitest/autorun'
 require 'minitest/pride'
-require './my_lib/exhibit.rb'
+require './lib/exhibit.rb'
 
 
 class ExhibitTest < Minitest::Test
