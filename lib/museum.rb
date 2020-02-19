@@ -16,12 +16,3 @@ class Museum
   end
 
 end
-# require "pry"; binding.pry
-# @exhibits.each do |exhibit|
-#   patron.interests.find_all do |interest|
-#     if interest == exhibit.name
-#       @recommended_exhibits << exhibit
-#     end
-#   end
-#   @recommended_exhibits
-# end
